@@ -8,6 +8,7 @@ Ce dépôt contient deux applications web autonomes (un seul fichier HTML chacun
 |---|---|
 | `index.html` | **X — Clone Pro** : clone du réseau social X (Twitter) — fil d'actualité, réponses, citations, sondages, profils, messages, notifications, thèmes… |
 | `story.html` | **Story Haven** : contes illustrés en anglais, arabe et français. |
+| `lumen/` | **✦ Lumen** : assistant IA **francophone** gratuit et illimité — chat structuré, 3 niveaux de profondeur, base de connaissances vérifiée, documents volumineux, quiz corrigés, recherche web sourcée. Interface type DeepSeek. Voir `lumen/README.md`. |
 | `mudhakir/` | **مذاكر (Mudhakir)** : assistant d'études IA auto-hébergé — bibliothèque de centaines de fichiers volumineux, questions/réponses sourcées, exercices corrigés, flashcards, recherche web, planning. AR/FR, gratuit et illimité. Voir `mudhakir/README.md`. |
 
 ## 🚀 Lancer en local
@@ -15,6 +16,9 @@ Ce dépôt contient deux applications web autonomes (un seul fichier HTML chacun
 ```bash
 python3 -m http.server 8080
 # puis ouvrir http://localhost:8080 (X Clone Pro) ou /story.html
+
+# ✦ Lumen (assistant IA français) :
+cd lumen && npm install && npm start      # → http://localhost:3100
 
 # مذاكر (assistant d'études) :
 cd mudhakir && npm install && npm start   # → http://localhost:3000
