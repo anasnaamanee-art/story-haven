@@ -8,12 +8,16 @@ Ce dépôt contient deux applications web autonomes (un seul fichier HTML chacun
 |---|---|
 | `index.html` | **X — Clone Pro** : clone du réseau social X (Twitter) — fil d'actualité, réponses, citations, sondages, profils, messages, notifications, thèmes… |
 | `story.html` | **Story Haven** : contes illustrés en anglais, arabe et français. |
+| `mudhakir/` | **مذاكر (Mudhakir)** : assistant d'études IA auto-hébergé — bibliothèque de centaines de fichiers volumineux, questions/réponses sourcées, exercices corrigés, flashcards, recherche web, planning. AR/FR, gratuit et illimité. Voir `mudhakir/README.md`. |
 
 ## 🚀 Lancer en local
 
 ```bash
 python3 -m http.server 8080
 # puis ouvrir http://localhost:8080 (X Clone Pro) ou /story.html
+
+# مذاكر (assistant d'études) :
+cd mudhakir && npm install && npm start   # → http://localhost:3000
 ```
 
 ## ✨ X Clone Pro — fonctionnalités (v3)

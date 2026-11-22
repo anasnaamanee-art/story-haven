@@ -1,0 +1,25 @@
+{
+  "name": "mudhakir",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "مذاكر — مساعد دراسي ذكي محلي: مكتبة ملفات ضخمة، أسئلة وأجوبة، تمارين مشروحة، بحث، عربي/فرنسي",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "jszip": "^3.10.1",
+    "mammoth": "^1.8.0",
+    "multer": "^1.4.5-lts.1",
+    "pdfjs-dist": "^4.7.76",
+    "xlsx": "^0.18.5"
+  },
+  "optionalDependencies": {
+    "tesseract.js": "^5.1.0"
+  }
+}
